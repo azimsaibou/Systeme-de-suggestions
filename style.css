@@ -1,0 +1,54 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	height: 100vh;
+	background-color: gold;
+	font-family: sans-serif;
+}
+
+.conteneur{
+	width: 40%;
+	margin: 7% auto;
+}
+.conteneur .contenu{
+	background-color: white;
+	border-radius: 10px;
+	position: relative;	
+}
+
+.contenu input{
+	border-radius: 10px;
+	outline: none;
+	height: 40px;
+	width: 100%;
+	padding: 0 15px;
+}
+.contenu .icone{
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	top: 0;
+	right: 0;
+}
+.icone i{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.contenu ul{
+	display: none;
+	padding: 20px;
+	cursor: default;
+}
+.contenu.active ul{
+	display: block;
+}
+.contenu ul li{
+	width: 100%;
+	list-style: none;
+}
